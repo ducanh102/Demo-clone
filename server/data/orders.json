@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "userId": "1",
+    "items": [
+      {
+        "id": "1",
+        "name": "Phở Bò Đặc Biệt",
+        "price": 75000,
+        "quantity": 2
+      },
+      {
+        "id": "4",
+        "name": "Gỏi Cuốn Tôm Thịt",
+        "price": 50000,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 200000,
+    "status": "Đã giao hàng",
+    "paymentMethod": "Tiền mặt",
+    "address": "123 Đường ABC, Quận 1, TP.HCM",
+    "phone": "0987654321",
+    "createdAt": "2023-04-01T00:00:00.000Z"
+  }
+]

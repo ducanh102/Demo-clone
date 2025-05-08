@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "Nguyễn Văn A",
+    "email": "user@example.com",
+    "password": "$2a$10$CwEJOBLrRNYdOZHCeTkpyOyZwIQGF/b97/RpBmDW.jE7bWZn5jlHy",
+    "phone": "0987654321",
+    "address": "123 Đường ABC, Quận 1, TP.HCM",
+    "createdAt": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "1746724200966",
+    "name": "Đức Anh",
+    "email": "ducanh652k2@gmail.com",
+    "password": "$2a$10$t.YsFIZBrawZVC.DJof1COrRB0vI69Ni6phrAvyiO4O0TB3FVXTBq",
+    "phone": "0834459599",
+    "address": "Hoàng Mai, Hà Nội",
+    "createdAt": "2025-05-08T17:10:00.966Z"
+  }
+]

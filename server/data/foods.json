@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "name": "Phở Bò Đặc Biệt",
+    "description": "Phở bò truyền thống với nước dùng đậm đà, thịt bò tươi ngon, hành ngò và các loại gia vị đặc trưng.",
+    "price": 75000,
+    "image": "https://images.pexels.com/photos/5835353/pexels-photo-5835353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "1",
+    "rating": 4.8,
+    "popular": true,
+    "createdAt": "2023-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "name": "Cơm Tấm Sườn Bì Chả",
+    "description": "Cơm tấm với sườn nướng, bì heo và chả trứng. Kèm theo rau sống, dưa chua và nước mắm.",
+    "price": 65000,
+    "image": "https://images.pexels.com/photos/7287723/pexels-photo-7287723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "1",
+    "rating": 4.6,
+    "popular": true,
+    "createdAt": "2023-01-02T00:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "name": "Bún Bò Huế",
+    "description": "Bún bò Huế với nước dùng cay nồng, thịt bò, giò heo và rau thơm đặc trưng.",
+    "price": 70000,
+    "image": "https://images.pexels.com/photos/8969237/pexels-photo-8969237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "2",
+    "rating": 4.7,
+    "popular": true,
+    "createdAt": "2023-01-03T00:00:00.000Z"
+  },
+  {
+    "id": "4",
+    "name": "Gỏi Cuốn Tôm Thịt",
+    "description": "Gỏi cuốn với tôm, thịt heo, bún, rau sống và nước chấm đặc biệt.",
+    "price": 50000,
+    "image": "https://images.pexels.com/photos/8969238/pexels-photo-8969238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "3",
+    "rating": 4.5,
+    "popular": true,
+    "createdAt": "2023-01-04T00:00:00.000Z"
+  },
+  {
+    "id": "5",
+    "name": "Bánh Mì Thịt",
+    "description": "Bánh mì giòn với thịt, patê, rau, dưa chua và sốt đặc biệt.",
+    "price": 30000,
+    "image": "https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "category": "3",
+    "rating": 4.4,
+    "popular": false,
+    "createdAt": "2023-01-05T00:00:00.000Z"
+  }
+]
