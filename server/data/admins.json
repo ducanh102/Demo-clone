@@ -3,14 +3,7 @@
     "id": "1",
     "name": "Admin",
     "username": "admin",
-    "password": "$2a$10$CwEJOBLrRNYdOZHCeTkpyOyZwIQGF/b97/RpBmDW.jE7bWZn5jlHy",
+    "password": "$2a$10$CwTY5Jb9pG1WRd7UWtMi6.hhQ5R0UgryJ5U6B/BMEyKsd.wOzJpS.",
     "createdAt": "2023-01-01T00:00:00.000Z"
-  },
-  {
-    "id": "2",
-    "name": "Duc Anh",
-    "username": "ducanh",
-    "password": "$2a$10$t.YsFIZBrawZVC.DJof1COrRB0vI69Ni6phrAvyiO4O0TB3FVXTBq",
-    "createdAt": "2025-05-08T17:10:00.966Z"
   }
 ]

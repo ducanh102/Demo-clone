@@ -42,5 +42,40 @@ export const getAdminByUsername = async (username) => {
 
 // Verify password
 export const verifyPassword = async (plainPassword, hashedPassword) => {
-  return await bcrypt.compare(plainPassword, hashedPassword);
+  try {
+    return await bcrypt.compare(plainPassword, hashedPassword);
+  } catch (error) {
+    console.error('Error verifying password:', error);
+    return false;
+  }
+};
+
+// Create new admin (for testing)
+export const createAdmin = async (adminData) => {
+  try {
+    const admins = await getAllAdmins();
+    
+    // Hash password
+    const salt = await bcrypt.genSalt(10);
+    const hashedPassword = await bcrypt.hash(adminData.password, salt);
+    
+    // Create new admin
+    const newAdmin = {
+      id: Date.now().toString(),
+      ...adminData,
+      password: hashedPassword,
+      createdAt: new Date().toISOString()
+    };
+    
+    // Add to admins array and save
+    admins.push(newAdmin);
+    await fs.writeFile(adminsFilePath, JSON.stringify(admins, null, 2));
+    
+    // Return admin without password
+    const { password, ...adminWithoutPassword } = newAdmin;
+    return adminWithoutPassword;
+  } catch (error) {
+    console.error('Error creating admin:', error);
+    throw error;
+  }
 };
